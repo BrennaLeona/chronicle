@@ -10,7 +10,7 @@ import { DeleteButton } from './components/ui';
 import { findContinuityIssues } from './world';
 import type { ID } from './types';
 
-type Tab = 'timeline' | 'characters' | 'places' | 'checks';
+type Tab = 'timeline' | 'characters' | 'places' | 'checks' | 'testtab';
 
 export default function App() {
   const { db, projects, getData, deleteProject, replaceDatabase, loadSample } = useChronicle();
